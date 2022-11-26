@@ -13,23 +13,6 @@ int main() {
     printf("How many do you want to buy? ");
     scanf("%d", &quantity);
     total = 0;
-
-    // while (item != 0) {
-    //     if (item == 1) {
-    //         total = total + 200 * quantity;
-    //     } else if (item == 2) {
-    //         total = total + 150 * quantity;
-    //     } else if (item == 3) {
-    //         total = total + 400 * quantity;
-    //     } else if (item == 4) {
-    //         total = total + 300 * quantity;
-    //     } else if (item == 5) {
-    //         total = total + 150 * quantity;
-    //     } else {
-    //         printf("Invalid item number");
-    //     }
-    // }
-    total = 0;
     while (total != 0) {    
         switch (item) {
             case 1:
